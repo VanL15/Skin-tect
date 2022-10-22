@@ -28,8 +28,8 @@ if __name__ == "__main__":
     model = load_model("hackgt9.h5")
 
     # image path
-    img_path = '/Images/.'    # dog
-    #img_path = '/media/data/dogscats/test1/19.jpg'      # cat
+    FILE_NAME = "nv"
+    img_path = f'/Images/{FILE_NAME}.jpg'
 
     # load a single image
     new_image = load_image(img_path)
