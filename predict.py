@@ -37,3 +37,5 @@ if __name__ == "__main__":
     preds_classes = model.predict_step(new_image)
     cls = np.argmax(preds_classes)
     print(class_indicies[cls])
+    confidence = float(preds_classes[0][cls]) * 100
+    print(f"{round(confidence, 2)}% Confidence")
