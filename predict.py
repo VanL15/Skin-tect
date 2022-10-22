@@ -3,7 +3,6 @@ from keras.models import load_model
 from keras.preprocessing import image
 import matplotlib.pyplot as plt
 import numpy as np
-import os
 
 class_indicies = {0: 'akiec', 1: 'bcc', 2: 'bkl', 3: 'df', 4: 'mel', 5: 'nv', 6: 'vasc'}
 
@@ -12,7 +11,7 @@ def load_image(img_path, show=False):
     img = tf.keras.preprocessing.image.load_img(img_path, target_size=(224, 224, 3))
     img_tensor = tf.keras.preprocessing.image.img_to_array(img)                         # create tensor of image with parameters (height, width, channels)
     img_tensor = np.expand_dims(img_tensor, axis=0)                                     # expand img_tensor to include batch parameter so it's correctly formatted
-    img_tensor /= 255.                                                                  # divide by 255 to get values in range of [0, 1]
+    img_tensor /= 255.                                                                  # divide by 255 to normalize
 
     # display image as graph
     if show:
@@ -28,8 +27,8 @@ if __name__ == "__main__":
     model = load_model("hackgt9.h5")
 
     # image path
-    img_path = '/Images/.'    # dog
-    #img_path = '/media/data/dogscats/test1/19.jpg'      # cat
+    FILE_NAME = "nv"
+    img_path = '/Images/{FILE_NAME}.jpg'
 
     # load a single image
     new_image = load_image(img_path)
