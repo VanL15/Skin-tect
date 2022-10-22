@@ -27,8 +27,8 @@ if __name__ == "__main__":
     model = load_model("hackgt9.h5")
 
     # image path
-    FILE_NAME = "IMG_2328"
-    img_path = f'Images\{FILE_NAME}.jpg'
+    FILE_NAME = "IMG_4965"
+    img_path = f'Images\{FILE_NAME}.png'
 
     # load a single image
     new_image = load_image(img_path)
