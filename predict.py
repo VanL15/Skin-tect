@@ -4,7 +4,7 @@ from keras.preprocessing import image
 import matplotlib.pyplot as plt
 import numpy as np
 
-class_indicies = {0: 'akiec', 1: 'bcc', 2: 'bkl', 3: 'df', 4: 'mel', 5: 'nv', 6: 'vasc'}
+class_indicies = {0: "Actinic Keratoses, Intraepithelial Carcinoma, or Bowen's disease", 1: 'Basal Cell Carcinoma', 2: 'Benign Keratosis-like Lesions', 3: 'Dermatofibroma', 4: 'Melanoma', 5: 'Melanocytic Nevi', 6: 'Vascular Lesions'}
 
 def load_image(img_path, show=False):
 
@@ -27,8 +27,8 @@ if __name__ == "__main__":
     model = load_model("hackgt9.h5")
 
     # image path
-    FILE_NAME = "nv"
-    img_path = '/Images/{FILE_NAME}.jpg'
+    FILE_NAME = "IMG_2328"
+    img_path = f'Images\{FILE_NAME}.jpg'
 
     # load a single image
     new_image = load_image(img_path)
