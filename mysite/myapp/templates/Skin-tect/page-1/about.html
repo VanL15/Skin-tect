@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+{% load static %}
 <html>
 <head>
   <meta charset="utf-8" />
@@ -9,7 +10,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa%3A400"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat%3A400%2C500"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C500"/>
-  <link rel="stylesheet" href="./styles/about.css"/>
+  <link rel="stylesheet" href="{% static './styles/about.css' %}"/>
 </head>
 <body>
 <div class="about-pF7"none">
@@ -36,7 +37,7 @@
     <div class="home-PB3"leaf">Home</div>
     <div class="additional-resources-7Mw"leaf">Additional Resources</div>
     <div class="about-us-Qbw"leaf">About Us</div>
-    <button class="button-6zZ"leaf" onClick="window.location.href='healthcare-create-account.html';">I’m a Healthcare Provider</button>
+    <button class="button-6zZ"leaf" onClick="window.location.href='healthcare-create-account';">I’m a Healthcare Provider</button>
   </div>
 </div>
 </body>
