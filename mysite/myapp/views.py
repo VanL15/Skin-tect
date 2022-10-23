@@ -7,11 +7,7 @@ from .predict import predict
 def index(request):
     return render(request, "homepage.html")
 
-
 def start_scanning(request):
-    return render(request, "start-scanning.html")
-
-def check_result(request):
     if request.method == 'POST':
         form = ImageForm2(request.POST, request.FILES)
         if form.is_valid():
@@ -19,13 +15,13 @@ def check_result(request):
             img_obj = form.instance
             prediction, confidence = predict(r"C:\Users\james\Desktop\skin-cancer-validation\mysite\media\images" + "\\" + str(img_obj))
             if confidence < 50:
-                return results_low_confidence(request)
+                return render(request, "results-low-confidence.html")
             elif prediction == "Melanoma":
-                return results_melanoma(request)
+                return render(request, "results-melanoma.html")
             elif prediction == "Basal Cell Carcinoma":
-                return results_BCC(request)
+                return render(request, "results-BCC.html")
             else:
-                return results_other(request)
+                return render(request, "results-other.html")
     else:
         form = ImageForm()
     return render(request, "start-scanning.html", {'form' : form})
