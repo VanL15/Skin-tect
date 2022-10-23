@@ -55,7 +55,7 @@ ROOT_URLCONF = 'mysite.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['templates'],
+        'DIRS': ['myapp/templates/Skin-tect/page-1'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
