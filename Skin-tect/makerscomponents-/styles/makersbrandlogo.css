@@ -1,0 +1,126 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 12.5rem;
+}.makersbrandlogo-kr1 {
+  box-sizing: border-box;
+  padding: 2rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: solid 0.1rem #9747ff;
+  border-radius: 0.5rem;
+}
+.makersbrandlogo-kr1 .typelogo-qMf {
+  margin-bottom: 2rem;
+  width: 100%;
+  height: 3rem;
+  flex-shrink: 0;
+}
+.makersbrandlogo-kr1 .typelogo-qMf .makingit-logo-KGq {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.makersbrandlogo-kr1 .typelogo-qMf .makingit-logo-KGq .icon-Rqf {
+  margin: 0.5rem 0.809rem 0.52rem 0rem;
+  width: 3.3912rem;
+  height: calc(100% - 1.0201rem);
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.makersbrandlogo-kr1 .typelogo-qMf .makingit-logo-KGq .icon-Rqf .rectangle-5-oDw {
+  width: 1.4142rem;
+  height: 1.4142rem;
+  position: absolute;
+  left: 0;
+  top: 0rem;
+  overflow: hidden;
+  background-color: #ffe45e;
+}
+.makersbrandlogo-kr1 .typelogo-qMf .makingit-logo-KGq .icon-Rqf .rectangle-6-sjb {
+  width: 1.6971rem;
+  height: 1.6971rem;
+  position: absolute;
+  left: 0.7142rem;
+  top: 0rem;
+  overflow: hidden;
+  background-color: #5eabe3;
+}
+.makersbrandlogo-kr1 .typelogo-qMf .makingit-logo-KGq .icon-Rqf .rectangle-7-XJM {
+  width: 1.9799rem;
+  height: 1.9799rem;
+  position: absolute;
+  left: 1.4113rem;
+  top: 0;
+  overflow: hidden;
+  background-color: #ff6392;
+}
+.makersbrandlogo-kr1 .typelogo-qMf .makingit-logo-KGq .logo-PrM {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.6666666667;
+  color: #0a2942;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.makersbrandlogo-kr1 .typeicon-NCV {
+  margin-right: 5.1rem;
+  box-sizing: border-box;
+  padding: 0.7rem 0rem 0.72rem 0rem;
+  width: 3.4rem;
+  height: 3.4rem;
+  flex-shrink: 0;
+}
+.makersbrandlogo-kr1 .typeicon-NCV .icon-Nbo {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.makersbrandlogo-kr1 .typeicon-NCV .icon-Nbo .rectangle-5-K1F {
+  width: 1.4142rem;
+  height: 1.4142rem;
+  position: absolute;
+  left: 0;
+  top: 0rem;
+  overflow: hidden;
+  background-color: #ffe45e;
+}
+.makersbrandlogo-kr1 .typeicon-NCV .icon-Nbo .rectangle-6-wYR {
+  width: 1.6971rem;
+  height: 1.6971rem;
+  position: absolute;
+  left: 0.7142rem;
+  top: 0rem;
+  overflow: hidden;
+  background-color: #5eabe3;
+}
+.makersbrandlogo-kr1 .typeicon-NCV .icon-Nbo .rectangle-7-sws {
+  width: 1.9799rem;
+  height: 1.9799rem;
+  position: absolute;
+  left: 1.4113rem;
+  top: 0;
+  overflow: hidden;
+  background-color: #ff6392;
+}

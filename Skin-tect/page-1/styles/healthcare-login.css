@@ -1,0 +1,225 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.healthcare-login-qEV {
+  box-sizing: border-box;
+  padding-bottom: 0.1rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.healthcare-login-qEV .navigation-c-fcq {
+  box-sizing: border-box;
+  padding: 1.15rem 79.65rem 1.15rem 1.777rem;
+  width: 144.4rem;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #ecf2f1;
+  flex-shrink: 0;
+}
+.healthcare-login-qEV .navigation-c-fcq .skin-tect-U6R {
+  margin-right: 7.6728rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.6rem;
+  font-weight: 400;
+  line-height: 1.115;
+  letter-spacing: -0.054rem;
+  color: #000000;
+  font-family: Comfortaa, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.healthcare-login-qEV .navigation-c-fcq .home-PuX {
+  margin-right: 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  letter-spacing: -0.027rem;
+  color: #03989e;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.healthcare-login-qEV .navigation-c-fcq .additional-resources-KCq {
+  margin-right: 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  letter-spacing: -0.027rem;
+  color: #03989e;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.healthcare-login-qEV .navigation-c-fcq .about-us-Ac5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  letter-spacing: -0.027rem;
+  color: #03989e;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.healthcare-login-qEV .hero-c-8xD {
+  box-sizing: border-box;
+  padding: 4.4rem 6rem 6.2rem 5.1rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.healthcare-login-qEV .hero-c-8xD .the-largest-community-of-photo-enthusiasts-8Kw {
+  margin: 0rem 4rem 7.2rem 2.9rem;
+  width: calc(100% - 6.9rem);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.healthcare-login-qEV .hero-c-8xD .the-largest-community-of-photo-enthusiasts-8Kw .provider-login-ZAM {
+  margin-bottom: 1.9rem;
+  text-align: center;
+  font-size: 4.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -0.072rem;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.healthcare-login-qEV .hero-c-8xD .the-largest-community-of-photo-enthusiasts-8Kw .thank-you-for-your-time-in-helping-support-our-mission-sign-in-below-to-submit-entries-for-consideration-into-our-database-kkd {
+  max-width: 126rem;
+  text-align: center;
+  font-size: 3.6rem;
+  font-weight: 400;
+  line-height: 1.3888888889;
+  letter-spacing: -0.054rem;
+  color: rgba(0, 0, 0, 0.8000000119);
+  font-family: Montserrat, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.healthcare-login-qEV .hero-c-8xD .group-TYZ {
+  box-sizing: border-box;
+  padding: 8.1rem 36rem 8.05rem 36.9rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: solid 0.1rem rgba(0, 0, 0, 0.5);
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.healthcare-login-qEV .hero-c-8xD .group-TYZ .log-in-to-your-account-below-7t1 {
+  margin: 0rem 1.975rem 4.3rem 0rem;
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: -0.036rem;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.healthcare-login-qEV .hero-c-8xD .group-TYZ .auto-group-xvem-dzm {
+  margin-bottom: 3.7rem;
+  box-sizing: border-box;
+  padding: 1.3rem 3rem 2.5rem 3rem;
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: -0.0225rem;
+  color: rgba(0, 0, 0, 0.8000000119);
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem rgba(0, 0, 0, 0.5);
+  background-color: #f6f8f8;
+  flex-shrink: 0;
+}
+.healthcare-login-qEV .hero-c-8xD .group-TYZ .auto-group-zftr-h7T {
+  margin-bottom: 7.3rem;
+  box-sizing: border-box;
+  padding: 1.2rem 3rem;
+  width: 100%;
+  height: 6.2rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: -0.0225rem;
+  color: rgba(0, 0, 0, 0.8000000119);
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem rgba(0, 0, 0, 0.5);
+  background-color: #f6f8f8;
+  flex-shrink: 0;
+}
+.healthcare-login-qEV .hero-c-8xD .group-TYZ .button-bc9 {
+  margin: 0rem 16.123rem 2.709rem 16.1rem;
+  width: calc(100% - 32.2235rem);
+  height: 5.8406rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  letter-spacing: -0.0225rem;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #03989e;
+  border-radius: 0.6rem;
+  flex-shrink: 0;
+}
+.healthcare-login-qEV .hero-c-8xD .group-TYZ .i-need-to-request-an-account-9n5 {
+  margin-right: 0.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  letter-spacing: -0.036rem;
+  text-decoration-line: underline;
+  color: #03989e;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}

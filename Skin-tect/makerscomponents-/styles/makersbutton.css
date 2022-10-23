@@ -1,0 +1,104 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 56rem;
+}.makersbutton-1UZ {
+  box-sizing: border-box;
+  padding: 2rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  column-gap: 2rem;
+  align-items: center;
+  border: solid 0.1rem #9747ff;
+  border-radius: 0.5rem;
+}
+.makersbutton-1UZ .statedefault-typeprimary-R2V {
+  width: 11.5rem;
+  height: 4.6rem;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.2222222222;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0069ff;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.makersbutton-1UZ .statehover-typeprimary-iQu {
+  width: 11.5rem;
+  height: 4.6rem;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.2222222222;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0.4rem 1.6rem rgba(0, 0, 0, 0.1000000015);
+  background-color: #0069ff;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.makersbutton-1UZ .statedefault-typesecondary-12d {
+  width: 11.5rem;
+  height: 4.6rem;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.2222222222;
+  color: #0249ff;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.2rem #0249ff;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.makersbutton-1UZ .statehover-typesecondary-nBo {
+  width: 11.5rem;
+  height: 4.6rem;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.2222222222;
+  color: #0249ff;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.2rem #0249ff;
+  box-sizing: border-box;
+  box-shadow: 0 0.4rem 1.6rem rgba(0, 0, 0, 0.1000000015);
+  background-color: #ffffff;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}

@@ -1,0 +1,227 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.healthcare-create-account-5vV {
+  box-sizing: border-box;
+  padding-bottom: 0.1rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.healthcare-create-account-5vV .navigation-c-ByX {
+  box-sizing: border-box;
+  padding: 1.15rem 79.45rem 1.15rem 1.75rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #ecf2f1;
+  flex-shrink: 0;
+}
+.healthcare-create-account-5vV .navigation-c-ByX .skin-tect-VUR {
+  margin-right: 7.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.6rem;
+  font-weight: 400;
+  line-height: 1.115;
+  letter-spacing: -0.054rem;
+  color: #000000;
+  font-family: Comfortaa, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.healthcare-create-account-5vV .navigation-c-ByX .home-NHK {
+  margin-right: 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  letter-spacing: -0.027rem;
+  color: #03989e;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.healthcare-create-account-5vV .navigation-c-ByX .additional-resources-g37 {
+  margin-right: 3.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  letter-spacing: -0.027rem;
+  color: #03989e;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.healthcare-create-account-5vV .navigation-c-ByX .about-us-y2D {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  letter-spacing: -0.027rem;
+  color: #03989e;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.healthcare-create-account-5vV .hero-c-cqs {
+  box-sizing: border-box;
+  padding: 4.6rem 6rem 5.5rem 5.1rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.healthcare-create-account-5vV .hero-c-cqs .the-largest-community-of-photo-enthusiasts-XC9 {
+  margin: 0rem 4rem 6.1rem 2.9rem;
+  width: calc(100% - 6.9rem);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.healthcare-create-account-5vV .hero-c-cqs .the-largest-community-of-photo-enthusiasts-XC9 .provider-account-creation-bxh {
+  margin-bottom: 1.9rem;
+  text-align: center;
+  font-size: 4.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -0.072rem;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.healthcare-create-account-5vV .hero-c-cqs .the-largest-community-of-photo-enthusiasts-XC9 .thank-you-for-your-time-in-helping-support-our-mission-sign-in-below-to-submit-entries-for-consideration-into-our-database-gz9 {
+  max-width: 126rem;
+  text-align: center;
+  font-size: 3.6rem;
+  font-weight: 400;
+  line-height: 1.3888888889;
+  letter-spacing: -0.054rem;
+  color: rgba(0, 0, 0, 0.8000000119);
+  font-family: Montserrat, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.healthcare-create-account-5vV .hero-c-cqs .group-nxd {
+  box-sizing: border-box;
+  padding: 7.4rem 36rem 8.959rem 36.9rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: solid 0.1rem rgba(0, 0, 0, 0.5);
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.healthcare-create-account-5vV .hero-c-cqs .group-nxd .log-in-to-your-account-below-14h {
+  margin: 0rem 1.975rem 4.3rem 0rem;
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: -0.036rem;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.healthcare-create-account-5vV .hero-c-cqs .group-nxd .auto-group-ntmx-nUm {
+  margin-bottom: 3.7rem;
+  box-sizing: border-box;
+  padding: 1.3rem 3rem 2.5rem 3rem;
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: -0.0225rem;
+  color: rgba(0, 0, 0, 0.8000000119);
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem rgba(0, 0, 0, 0.5);
+  background-color: #f6f8f8;
+  flex-shrink: 0;
+}
+.healthcare-create-account-5vV .hero-c-cqs .group-nxd .auto-group-uqay-Xam {
+  margin-bottom: 4.1rem;
+  box-sizing: border-box;
+  padding: 1.2rem 3rem;
+  width: 100%;
+  height: 6.2rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: -0.0225rem;
+  color: rgba(0, 0, 0, 0.8000000119);
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem rgba(0, 0, 0, 0.5);
+  background-color: #f6f8f8;
+  flex-shrink: 0;
+}
+.healthcare-create-account-5vV .hero-c-cqs .group-nxd .auto-group-alar-qzm {
+  margin-bottom: 4.1rem;
+  box-sizing: border-box;
+  padding: 1.2rem 3rem;
+  width: 100%;
+  height: 6.2rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: -0.0225rem;
+  color: rgba(0, 0, 0, 0.8000000119);
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem rgba(0, 0, 0, 0.5);
+  background-color: #f6f8f8;
+  flex-shrink: 0;
+}
+.healthcare-create-account-5vV .hero-c-cqs .group-nxd .button-M5w {
+  margin: 0rem 16.123rem 0rem 16.1rem;
+  width: calc(100% - 32.2235rem);
+  height: 5.8406rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  letter-spacing: -0.0225rem;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #03989e;
+  border-radius: 0.6rem;
+  flex-shrink: 0;
+}

@@ -1,0 +1,169 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.healthcare-submitted-JJq {
+  box-sizing: border-box;
+  padding-bottom: 0.1rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.healthcare-submitted-JJq .navigation-c-BtR {
+  box-sizing: border-box;
+  padding: 1.15rem 79.45rem 1.15rem 1.75rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #ecf2f1;
+  flex-shrink: 0;
+}
+.healthcare-submitted-JJq .navigation-c-BtR .skin-tect-V8R {
+  margin-right: 7.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.6rem;
+  font-weight: 400;
+  line-height: 1.115;
+  letter-spacing: -0.054rem;
+  color: #000000;
+  font-family: Comfortaa, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.healthcare-submitted-JJq .navigation-c-BtR .home-iG5 {
+  margin-right: 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  letter-spacing: -0.027rem;
+  color: #03989e;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.healthcare-submitted-JJq .navigation-c-BtR .additional-resources-9cH {
+  margin-right: 3.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  letter-spacing: -0.027rem;
+  color: #03989e;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.healthcare-submitted-JJq .navigation-c-BtR .about-us-yLR {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  letter-spacing: -0.027rem;
+  color: #03989e;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.healthcare-submitted-JJq .hero-c-BxH {
+  box-sizing: border-box;
+  padding-top: 18.9rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.healthcare-submitted-JJq .hero-c-BxH .the-largest-community-of-photo-enthusiasts-trh {
+  margin: 0rem 8.25rem 13.2rem 8.25rem;
+  width: calc(100% - 16.5rem);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.healthcare-submitted-JJq .hero-c-BxH .the-largest-community-of-photo-enthusiasts-trh .successful-submition-ZT3 {
+  margin-bottom: 9rem;
+  text-align: center;
+  font-size: 4.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -0.072rem;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.healthcare-submitted-JJq .hero-c-BxH .the-largest-community-of-photo-enthusiasts-trh .thank-you-for-your-time-and-effort-towards-helping-to-support-our-mission-we-have-received-your-request-look-for-an-email-at-the-address-you-provided-with-steps-to-create-your-account-once-we-have-verified-your-information-qvM {
+  max-width: 127.5rem;
+  text-align: center;
+  font-size: 3.6rem;
+  font-weight: 400;
+  line-height: 1.3888888889;
+  letter-spacing: -0.054rem;
+  color: rgba(0, 0, 0, 0.8000000119);
+  font-family: Montserrat, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.healthcare-submitted-JJq .hero-c-BxH .auto-group-dbau-qJ5 {
+  width: 100%;
+  height: 27.6rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.healthcare-submitted-JJq .hero-c-BxH .auto-group-dbau-qJ5 .rectangle-2-ZE5 {
+  width: 27.7765rem;
+  height: 5.8406rem;
+  cursor: pointer;
+  position: absolute;
+  left: 58.1rem;
+  top: 0;
+  background-color: #03989e;
+  border-radius: 0.6rem;
+}
+.healthcare-submitted-JJq .hero-c-BxH .auto-group-dbau-qJ5 .home-fH7 {
+  width: 7.4rem;
+  height: 3rem;
+  position: absolute;
+  left: 68.2646rem;
+  top: 1.4562rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  letter-spacing: -0.036rem;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}

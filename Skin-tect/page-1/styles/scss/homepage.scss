@@ -1,0 +1,184 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.homepage-iNH {
+  width: 100%;
+  height: 102.4rem;
+  overflow: hidden;
+  position: relative;
+  background-color: #ffffff;
+
+  .frame-1-21b {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    .navigation-c-AvR {
+      box-sizing: border-box;
+      height: 6.4rem;
+      display: flex;
+      align-items: center;
+      background-color: #ecf2f1;
+      flex-shrink: 0;
+      margin: 0 0.4rem;
+      padding: 1.15rem 0.1rem 1.15rem 1.75rem;
+      width: calc(100% - 0.8rem);
+
+      .skin-tect-5g1 {
+        justify-content: center;
+        font-size: 3.6rem;
+        font-weight: 400;
+        margin-right: 18.5rem;
+        display: flex;
+        align-items: center;
+        font-family: Comfortaa, 'Source Sans Pro';
+        white-space: nowrap;
+        flex-shrink: 0;
+        line-height: 1.115;
+        letter-spacing: -0.054rem;
+        color: #000000;
+      }
+      .home-eMj {
+        font-weight: 500;
+        line-height: 1.2175;
+        letter-spacing: -0.027rem;
+        font-family: Montserrat, 'Source Sans Pro';
+        margin-right: 17rem;
+        font-size: 1.8rem;
+        justify-content: center;
+        color: #03989e;
+        white-space: nowrap;
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+      }
+      .additional-resources-j8H {
+        font-family: Montserrat, 'Source Sans Pro';
+        white-space: nowrap;
+        justify-content: center;
+        line-height: 1.2175;
+        letter-spacing: -0.027rem;
+        color: #03989e;
+        font-weight: 500;
+        flex-shrink: 0;
+        margin-right: 17.6rem;
+        display: flex;
+        align-items: center;
+        font-size: 1.8rem;
+      }
+      .about-us-odw {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.8rem;
+        line-height: 1.2175;
+        color: #03989e;
+        white-space: nowrap;
+        flex-shrink: 0;
+        margin-right: 17.45rem;
+        font-weight: 500;
+        letter-spacing: -0.027rem;
+        font-family: Montserrat, 'Source Sans Pro';
+      }
+      .button-Uzy {
+        justify-content: center;
+        font-weight: 500;
+        flex-shrink: 0;
+        width: 21.9rem;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        white-space: nowrap;
+        height: calc(100% - 0.1rem);
+        font-size: 1.5rem;
+        color: #ecf2f1;
+        font-family: Montserrat, 'Source Sans Pro';
+        margin: 0.05rem 0;
+        border-radius: 0.6rem;
+        line-height: 1.2175;
+        letter-spacing: -0.0225rem;
+        background-color: #03989e;
+      }
+    }
+    .hero-b-Zf3 {
+      align-items: center;
+      background-color: #ffffff;
+      flex-shrink: 0;
+      width: 100%;
+      height: 96rem;
+      overflow: hidden;
+      position: relative;
+      display: flex;
+
+      .rectangle-oJV {
+        width: 71.7rem;
+        height: 96rem;
+        border: solid 0.1rem rgba(0, 0, 0, 0.3000000119);
+        box-sizing: border-box;
+        background-color: #e5e5e5;
+        flex-shrink: 0;
+      }
+      .frame-5-fLh {
+        flex-shrink: 0;
+        box-sizing: border-box;
+        padding: 26.1rem 4.5rem;
+        width: 72.3rem;
+        height: 100%;
+        background-color: #ffffff;
+
+        .the-largest-community-of-photo-enthusiasts-LBw {
+          letter-spacing: -0.096rem;
+          color: #000000;
+          font-family: Montserrat, 'Source Sans Pro';
+          white-space: nowrap;
+          margin-bottom: 1.3rem;
+          font-size: 6.4rem;
+          font-weight: 400;
+          line-height: 1.25;
+        }
+        .our-program-has-been-trained-to-distinguish-between-seven-different-types-of-skin-lesions-two-of-which-are-cancerous-if-you-have-a-skin-lesion-you-are-concerned-about-submit-an-image-below-for-our-analysis-of-your-risk-factor-wBj {
+          font-weight: 400;
+          line-height: 1.6346153846;
+          letter-spacing: -0.039rem;
+          color: rgba(0, 0, 0, 0.8000000119);
+          font-family: Montserrat, 'Source Sans Pro';
+          margin: 0rem 0rem 2.5rem 0.4rem;
+          max-width: 56.5rem;
+          font-size: 2.6rem;
+        }
+        .button-5x9 {
+          font-size: 2.4rem;
+          letter-spacing: -0.036rem;
+          color: #ffffff;
+          background-color: #03989e;
+          cursor: pointer;
+          justify-content: center;
+          font-weight: 500;
+          height: 6.5rem;
+          line-height: 1.2175;
+          font-family: Montserrat, 'Source Sans Pro';
+          border-radius: 0.6rem;
+          width: 23.5rem;
+          display: flex;
+          align-items: center;
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+}

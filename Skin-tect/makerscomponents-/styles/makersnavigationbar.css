@@ -1,0 +1,506 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 148rem;
+}.makersnavigationbar-b6V {
+  box-sizing: border-box;
+  padding: 2rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  row-gap: 2rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: solid 0.1rem #9747ff;
+  border-radius: 0.5rem;
+}
+.makersnavigationbar-b6V .typeright-FRw {
+  box-sizing: border-box;
+  padding: 2.4rem 17rem;
+  width: 100%;
+  height: 9.4rem;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.makersnavigationbar-b6V .typeright-FRw .container-ZSd {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.makersnavigationbar-b6V .typeright-FRw .container-ZSd .makingit-logo-6xM {
+  margin: 0.8rem 53.2rem 0.8rem 0rem;
+  height: calc(100% - 1.6rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.makersnavigationbar-b6V .typeright-FRw .container-ZSd .makingit-logo-6xM .icon-p7f {
+  margin: 0.5rem 0.809rem 0.52rem 0rem;
+  width: 3.3912rem;
+  height: calc(100% - 1.0201rem);
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.makersnavigationbar-b6V .typeright-FRw .container-ZSd .makingit-logo-6xM .icon-p7f .rectangle-5-X25 {
+  width: 1.4142rem;
+  height: 1.4142rem;
+  position: absolute;
+  left: 0;
+  top: 0rem;
+  overflow: hidden;
+  background-color: #ffe45e;
+}
+.makersnavigationbar-b6V .typeright-FRw .container-ZSd .makingit-logo-6xM .icon-p7f .rectangle-6-HYy {
+  width: 1.6971rem;
+  height: 1.6971rem;
+  position: absolute;
+  left: 0.7142rem;
+  top: 0rem;
+  overflow: hidden;
+  background-color: #5eabe3;
+}
+.makersnavigationbar-b6V .typeright-FRw .container-ZSd .makingit-logo-6xM .icon-p7f .rectangle-7-ziH {
+  width: 1.9799rem;
+  height: 1.9799rem;
+  position: absolute;
+  left: 1.4113rem;
+  top: 0;
+  overflow: hidden;
+  background-color: #ff6392;
+}
+.makersnavigationbar-b6V .typeright-FRw .container-ZSd .makingit-logo-6xM .logo-72D {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.6666666667;
+  color: #0a2942;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.makersnavigationbar-b6V .typeright-FRw .container-ZSd .right-1NV {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.makersnavigationbar-b6V .typeright-FRw .container-ZSd .right-1NV .links-MSM {
+  margin: 1.35rem 2.4rem 1.25rem 0rem;
+  height: calc(100% - 2.6rem);
+  display: flex;
+  column-gap: 2.4rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+.makersnavigationbar-b6V .typeright-FRw .container-ZSd .right-1NV .links-MSM .makersnavigationitem-Syb {
+  width: 6.8rem;
+  height: 100%;
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.makersnavigationbar-b6V .typeright-FRw .container-ZSd .right-1NV .links-MSM .makersnavigationitem-jC1 {
+  width: 6.8rem;
+  height: 100%;
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.makersnavigationbar-b6V .typeright-FRw .container-ZSd .right-1NV .links-MSM .makersnavigationitem-2B7 {
+  width: 6.8rem;
+  height: 100%;
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.makersnavigationbar-b6V .typeright-FRw .container-ZSd .right-1NV .links-MSM .makersnavigationitem-8E9 {
+  width: 6.8rem;
+  height: 100%;
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.makersnavigationbar-b6V .typeright-FRw .container-ZSd .right-1NV .makersbutton-EHB {
+  width: 11.5rem;
+  height: 100%;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.2222222222;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0069ff;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.makersnavigationbar-b6V .typeleft-5Ho {
+  box-sizing: border-box;
+  padding: 2.4rem 17rem;
+  width: 100%;
+  height: 9.4rem;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.makersnavigationbar-b6V .typeleft-5Ho .container-bG9 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.makersnavigationbar-b6V .typeleft-5Ho .container-bG9 .left-w57 {
+  margin: 0.8rem 53.2rem 0.8rem 0rem;
+  height: calc(100% - 1.6rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.makersnavigationbar-b6V .typeleft-5Ho .container-bG9 .left-w57 .makingit-logo-3tq {
+  margin-right: 2.4rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.makersnavigationbar-b6V .typeleft-5Ho .container-bG9 .left-w57 .makingit-logo-3tq .icon-zJH {
+  margin: 0.5rem 0.809rem 0.52rem 0rem;
+  width: 3.3912rem;
+  height: calc(100% - 1.0201rem);
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.makersnavigationbar-b6V .typeleft-5Ho .container-bG9 .left-w57 .makingit-logo-3tq .icon-zJH .rectangle-5-Vkq {
+  width: 1.4142rem;
+  height: 1.4142rem;
+  position: absolute;
+  left: 0;
+  top: 0rem;
+  overflow: hidden;
+  background-color: #ffe45e;
+}
+.makersnavigationbar-b6V .typeleft-5Ho .container-bG9 .left-w57 .makingit-logo-3tq .icon-zJH .rectangle-6-R8h {
+  width: 1.6971rem;
+  height: 1.6971rem;
+  position: absolute;
+  left: 0.7142rem;
+  top: 0rem;
+  overflow: hidden;
+  background-color: #5eabe3;
+}
+.makersnavigationbar-b6V .typeleft-5Ho .container-bG9 .left-w57 .makingit-logo-3tq .icon-zJH .rectangle-7-8Yu {
+  width: 1.9799rem;
+  height: 1.9799rem;
+  position: absolute;
+  left: 1.4113rem;
+  top: 0;
+  overflow: hidden;
+  background-color: #ff6392;
+}
+.makersnavigationbar-b6V .typeleft-5Ho .container-bG9 .left-w57 .makingit-logo-3tq .logo-FdX {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.6666666667;
+  color: #0a2942;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.makersnavigationbar-b6V .typeleft-5Ho .container-bG9 .left-w57 .links-B1P {
+  margin: 0.55rem 0rem 0.45rem 0rem;
+  height: calc(100% - 1rem);
+  display: flex;
+  column-gap: 2.4rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+.makersnavigationbar-b6V .typeleft-5Ho .container-bG9 .left-w57 .links-B1P .makersnavigationitem-fhF {
+  width: 6.8rem;
+  height: 100%;
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.makersnavigationbar-b6V .typeleft-5Ho .container-bG9 .left-w57 .links-B1P .makersnavigationitem-vdB {
+  width: 6.8rem;
+  height: 100%;
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.makersnavigationbar-b6V .typeleft-5Ho .container-bG9 .left-w57 .links-B1P .makersnavigationitem-bjK {
+  width: 6.8rem;
+  height: 100%;
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.makersnavigationbar-b6V .typeleft-5Ho .container-bG9 .left-w57 .links-B1P .makersnavigationitem-QAy {
+  width: 6.8rem;
+  height: 100%;
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.makersnavigationbar-b6V .typeleft-5Ho .container-bG9 .makersbutton-GDB {
+  width: 11.5rem;
+  height: 100%;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.2222222222;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0069ff;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.makersnavigationbar-b6V .typecenter-dC9 {
+  box-sizing: border-box;
+  padding: 2.4rem 17rem;
+  width: 100%;
+  height: 9.4rem;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.makersnavigationbar-b6V .typecenter-dC9 .container-hho {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.makersnavigationbar-b6V .typecenter-dC9 .container-hho .auto-group-uxyf-Qs7 {
+  box-sizing: border-box;
+  padding: 0.8rem 26.3rem 0.8rem 0rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.makersnavigationbar-b6V .typecenter-dC9 .container-hho .auto-group-uxyf-Qs7 .makingit-logo-GeR {
+  margin-right: 29.3rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.makersnavigationbar-b6V .typecenter-dC9 .container-hho .auto-group-uxyf-Qs7 .makingit-logo-GeR .icon-Z7j {
+  margin: 0.5rem 0.809rem 0.52rem 0rem;
+  width: 3.3912rem;
+  height: calc(100% - 1.0201rem);
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.makersnavigationbar-b6V .typecenter-dC9 .container-hho .auto-group-uxyf-Qs7 .makingit-logo-GeR .icon-Z7j .rectangle-5-9rd {
+  width: 1.4142rem;
+  height: 1.4142rem;
+  position: absolute;
+  left: 0;
+  top: 0rem;
+  overflow: hidden;
+  background-color: #ffe45e;
+}
+.makersnavigationbar-b6V .typecenter-dC9 .container-hho .auto-group-uxyf-Qs7 .makingit-logo-GeR .icon-Z7j .rectangle-6-Rp9 {
+  width: 1.6971rem;
+  height: 1.6971rem;
+  position: absolute;
+  left: 0.7142rem;
+  top: 0rem;
+  overflow: hidden;
+  background-color: #5eabe3;
+}
+.makersnavigationbar-b6V .typecenter-dC9 .container-hho .auto-group-uxyf-Qs7 .makingit-logo-GeR .icon-Z7j .rectangle-7-8iZ {
+  width: 1.9799rem;
+  height: 1.9799rem;
+  position: absolute;
+  left: 1.4113rem;
+  top: 0;
+  overflow: hidden;
+  background-color: #ff6392;
+}
+.makersnavigationbar-b6V .typecenter-dC9 .container-hho .auto-group-uxyf-Qs7 .makingit-logo-GeR .logo-dfK {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.6666666667;
+  color: #0a2942;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.makersnavigationbar-b6V .typecenter-dC9 .container-hho .auto-group-uxyf-Qs7 .links-5GR {
+  margin: 0.55rem 0rem 0.45rem 0rem;
+  height: calc(100% - 1rem);
+  display: flex;
+  column-gap: 2.4rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+.makersnavigationbar-b6V .typecenter-dC9 .container-hho .auto-group-uxyf-Qs7 .links-5GR .makersnavigationitem-iKP {
+  width: 6.8rem;
+  height: 100%;
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.makersnavigationbar-b6V .typecenter-dC9 .container-hho .auto-group-uxyf-Qs7 .links-5GR .makersnavigationitem-LrZ {
+  width: 6.8rem;
+  height: 100%;
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.makersnavigationbar-b6V .typecenter-dC9 .container-hho .auto-group-uxyf-Qs7 .links-5GR .makersnavigationitem-Lk5 {
+  width: 6.8rem;
+  height: 100%;
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.makersnavigationbar-b6V .typecenter-dC9 .container-hho .auto-group-uxyf-Qs7 .links-5GR .makersnavigationitem-qB3 {
+  width: 6.8rem;
+  height: 100%;
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.makersnavigationbar-b6V .typecenter-dC9 .container-hho .makersbutton-K6D {
+  width: 11.5rem;
+  height: 100%;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.2222222222;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0069ff;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}

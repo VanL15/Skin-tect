@@ -1,0 +1,195 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.about-pF7 {
+  width: 100%;
+  height: 102.4rem;
+  position: relative;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+.about-pF7 .sub-page-hero-b-LDT {
+  box-sizing: border-box;
+  padding: 12.6rem 3.7rem 9.7rem 7.4rem;
+  width: 143.4rem;
+  height: 106.7rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+.about-pF7 .sub-page-hero-b-LDT .about-us-yGR {
+  margin-left: 2.3rem;
+  font-size: 4.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -0.072rem;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.about-pF7 .sub-page-hero-b-LDT .auto-group-prks-ssb {
+  margin-bottom: 2rem;
+  width: 100%;
+  height: 32rem;
+  display: flex;
+  align-items: center;
+}
+.about-pF7 .sub-page-hero-b-LDT .auto-group-prks-ssb .auto-group-x7yp-bHo {
+  box-sizing: border-box;
+  padding-top: 2rem;
+  height: 100%;
+  flex-shrink: 0;
+}
+.about-pF7 .sub-page-hero-b-LDT .auto-group-prks-ssb .auto-group-x7yp-bHo .item-1-3-KDo {
+  width: 30rem;
+  height: 30rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 25rem;
+}
+.about-pF7 .sub-page-hero-b-LDT .auto-group-prks-ssb .auto-group-e3s3-1MX {
+  box-sizing: border-box;
+  padding: 2rem 0rem 0rem 4.1rem;
+  height: 100%;
+  display: flex;
+  column-gap: 4.1rem;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.about-pF7 .sub-page-hero-b-LDT .auto-group-prks-ssb .auto-group-e3s3-1MX .item-1-1-tw7 {
+  width: 30rem;
+  height: 30rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 25rem;
+  flex-shrink: 0;
+}
+.about-pF7 .sub-page-hero-b-LDT .auto-group-prks-ssb .auto-group-e3s3-1MX .item-1-2-oYH {
+  width: 30rem;
+  height: 30rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 25rem;
+  flex-shrink: 0;
+}
+.about-pF7 .sub-page-hero-b-LDT .auto-group-prks-ssb .auto-group-e3s3-1MX .item-1-4-vcu {
+  width: 30rem;
+  height: 30rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 25rem;
+  flex-shrink: 0;
+}
+.about-pF7 .sub-page-hero-b-LDT .we-are-a-group-of-georgia-tech-students-who-created-this-project-during-a-hackathon-we-aim-to-provide-tools-and-education-about-how-artificial-intelligence-ai-can-be-used-to-detect-skin-cancer-while-raising-awareness-about-current-bias-and-issues-with-existing-skin-lesion-detection-ai-and-working-to-offer-healthcare-providers-with-easy-tools-to-reduce-bias-in-the-data-and-improve-accuracy-of-predictions-SLM {
+  margin-left: 2.4rem;
+  max-width: 129.9rem;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 2.25;
+  letter-spacing: -0.048rem;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+}
+.about-pF7 .navigation-c-HkH {
+  box-sizing: border-box;
+  padding: 1.15rem 1rem 1.15rem 1.75rem;
+  width: 144rem;
+  height: 6.4rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  background-color: #ecf2f1;
+}
+.about-pF7 .navigation-c-HkH .skin-tect-Mk9 {
+  margin-right: 7.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.6rem;
+  font-weight: 400;
+  line-height: 1.115;
+  letter-spacing: -0.054rem;
+  color: #000000;
+  font-family: Comfortaa, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.about-pF7 .navigation-c-HkH .home-PB3 {
+  margin-right: 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  letter-spacing: -0.027rem;
+  color: #03989e;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.about-pF7 .navigation-c-HkH .additional-resources-7Mw {
+  margin-right: 3.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  letter-spacing: -0.027rem;
+  color: #03989e;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.about-pF7 .navigation-c-HkH .about-us-Qbw {
+  margin-right: 56.55rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  letter-spacing: -0.027rem;
+  color: #03989e;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.about-pF7 .navigation-c-HkH .button-6zZ {
+  margin: 0.05rem 0;
+  width: 21.9rem;
+  height: calc(100% - 0.1rem);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  letter-spacing: -0.0225rem;
+  color: #ecf2f1;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #03989e;
+  border-radius: 0.6rem;
+  flex-shrink: 0;
+}

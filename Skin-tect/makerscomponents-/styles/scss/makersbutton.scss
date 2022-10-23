@@ -1,0 +1,105 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 56rem;
+}.makersbutton-1UZ {
+  display: flex;
+  align-items: center;
+  border-radius: 0.5rem;
+  width: 100%;
+  padding: 2rem;
+  overflow: hidden;
+  position: relative;
+  column-gap: 2rem;
+  border: solid 0.1rem #9747ff;
+  box-sizing: border-box;
+
+  .statedefault-typeprimary-R2V {
+    width: 11.5rem;
+    white-space: nowrap;
+    background-color: #0069ff;
+    border-radius: 1rem;
+    flex-shrink: 0;
+    text-align: center;
+    font-weight: 400;
+    font-family: Inter, 'Source Sans Pro';
+    justify-content: center;
+    color: #ffffff;
+    height: 4.6rem;
+    cursor: pointer;
+    font-size: 1.8rem;
+    line-height: 2.2222222222;
+    display: flex;
+    align-items: center;
+  }
+  .statehover-typeprimary-iQu {
+    border-radius: 1rem;
+    line-height: 2.2222222222;
+    white-space: nowrap;
+    display: flex;
+    background-color: #0069ff;
+    justify-content: center;
+    flex-shrink: 0;
+    height: 4.6rem;
+    text-align: center;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    width: 11.5rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    align-items: center;
+    box-shadow: 0 0.4rem 1.6rem rgba(0, 0, 0, 0.1000000015);
+  }
+  .statedefault-typesecondary-12d {
+    cursor: pointer;
+    font-family: Inter, 'Source Sans Pro';
+    align-items: center;
+    border: solid 0.2rem #0249ff;
+    width: 11.5rem;
+    height: 4.6rem;
+    font-weight: 400;
+    white-space: nowrap;
+    display: flex;
+    box-sizing: border-box;
+    font-size: 1.8rem;
+    justify-content: center;
+    flex-shrink: 0;
+    text-align: center;
+    line-height: 2.2222222222;
+    color: #0249ff;
+    background-color: #ffffff;
+    border-radius: 1rem;
+  }
+  .statehover-typesecondary-nBo {
+    border-radius: 1rem;
+    line-height: 2.2222222222;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    font-size: 1.8rem;
+    width: 11.5rem;
+    color: #0249ff;
+    border: solid 0.2rem #0249ff;
+    height: 4.6rem;
+    text-align: center;
+    font-weight: 400;
+    box-shadow: 0 0.4rem 1.6rem rgba(0, 0, 0, 0.1000000015);
+    background-color: #ffffff;
+    flex-shrink: 0;
+  }
+}

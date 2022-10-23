@@ -1,0 +1,50 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 19.6rem;
+}.makersnavigationitem-ajF {
+  width: 100%;
+  align-items: center;
+  border: solid 0.1rem #9747ff;
+  box-sizing: border-box;
+  padding: 2rem;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  border-radius: 0.5rem;
+
+  .statedefault-dSd {
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    height: 1.9rem;
+    cursor: pointer;
+    font-size: 1.6rem;
+    line-height: 1.2125;
+    color: #000000;
+    margin-right: 2rem;
+    font-weight: 500;
+    flex-shrink: 0;
+  }
+  .statehover-Qbo {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.2125;
+    color: #000000;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+    height: 1.9rem;
+  }
+}
