@@ -47,7 +47,3 @@ def results(request):
     
 def about(request):
     return render(request, "about.html")
-    
-
-
-    
