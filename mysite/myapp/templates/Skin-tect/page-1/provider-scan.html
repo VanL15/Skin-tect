@@ -49,8 +49,14 @@
           <p class="crop-the-image-so-that-the-lesion-takes-up-one-third-of-the-width-and-one-third-of-the-height-and-is-centered-in-the-photo-3a5"leaf">Crop the image so that the lesion takes up one-third of the width and one-third of the height, and is centered in the photo.</p>
         </div>
       </div>
-      <input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: none;">
-      <label for="file" class="button-xKf"leaf">Upload Image</label>
+      <form id="uploadbanner" enctype="multipart/form-data" method="post" action="#">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Upload</button>
+        <input type="file"  accept="image/*" name="image" id="file" onchange="loadFile(event)" style="display: none;">
+        <label for="file" class="button-xKf"leaf">Upload Image</label>
+      </form>
+      
 
       <script>
         var loadFile = function(event) {
@@ -81,12 +87,22 @@
         </div>
         <p class="i-confirm-that-the-above-information-is-entirely-correct-to-the-best-of-my-knowledge-PMf"leaf">I confirm that the above information is entirely correct to the best of my knowledge</p>
       </div>
-      <input class="auto-group-so81-e2h"leaf" name="dx" placeholder="Diagnosis"></input>
-      <input class="auto-group-yjaz-Bgq"leaf" name="dx_type" placeholder="Diagnosis Type"></input>
+      <form>
+        <input class="auto-group-so81-e2h"leaf" name="dx" placeholder="Diagnosis"></input>
+      </form>
+      <form>
+        <input class="auto-group-yjaz-Bgq"leaf" name="dx_type" placeholder="Diagnosis Type"></input>
+      </form>
       <div class="auto-group-sqdb-Wcd"row">
-        <input class="auto-group-yudt-PRX"leaf" name="localization" placeholder="Localization of Lesion"></input>
-        <input class="auto-group-qpsr-pWq"leaf" name="age" placeholder="Patient Age"></input>
-        <input class="auto-group-amx9-RmX"leaf" name="sex" placeholder="Patient Sex"></input>
+        <form>
+          <input class="auto-group-yudt-PRX"leaf" name="localization" placeholder="Localization of Lesion"></input>
+        </form>
+        <form>
+          <input class="auto-group-qpsr-pWq"leaf" name="age" placeholder="Patient Age"></input>
+        </form>
+        <form>
+          <input class="auto-group-amx9-RmX"leaf" name="sex" placeholder="Patient Sex"></input>
+        </form>
       </div>
     </div>
   </div>

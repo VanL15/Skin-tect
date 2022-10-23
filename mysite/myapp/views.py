@@ -1,4 +1,6 @@
-from django.shortcuts import render
+from django.http import HttpResponse
+from django.shortcuts import render, redirect
+from .forms import *
 
 # Create your views here.
 def index(request):
@@ -20,7 +22,15 @@ def submitted(request):
     return render(request, "healthcare-submitted.html")
     
 def provider_scan(request):
-    return render(request, "provider-scan.html")
+    if request.method == 'POST':
+        form = ImageForm(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+            print("FUCKER")
+            return redirect('submitted')
+    else:
+        form = ImageForm()
+    return render(request, 'provider-scan.html', {'form' : form})
     
 def results(request):
     return render(request, "results.html")
