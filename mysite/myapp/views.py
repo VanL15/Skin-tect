@@ -26,8 +26,7 @@ def provider_scan(request):
         form = ImageForm(request.POST, request.FILES)
         if form.is_valid():
             form.save()
-            print("FUCKER")
-            return redirect('submitted')
+            return redirect('submitted/')
     else:
         form = ImageForm()
     return render(request, 'provider-scan.html', {'form' : form})
