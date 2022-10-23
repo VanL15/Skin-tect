@@ -20,13 +20,12 @@ def load_image(img_path, show=False):
 
     return img_tensor
 
-if __name__ == "__main__":
+def predict(img_name):
     # load model
     model = load_model(r"C:\Users\james\Desktop\skin-tect.h5")
 
     # image path
-    FILE_NAME = "melanoma1.jfif"
-    img_path = f'Images\{FILE_NAME}'
+    img_path = f'{img_name}'
 
     # load a single image
     new_image = load_image(img_path)
@@ -37,3 +36,4 @@ if __name__ == "__main__":
     print(class_indicies[cls])
     confidence = float(preds_classes[0][cls]) * 100
     print(f"{round(confidence, 2)}% Confidence")
+    return class_indicies[cls], round(confidence, 2)

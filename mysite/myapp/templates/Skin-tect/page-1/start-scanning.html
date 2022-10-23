@@ -36,6 +36,13 @@
           <p class="crop-the-image-so-that-the-lesion-takes-up-one-third-of-the-width-and-one-third-of-the-height-and-is-centered-in-the-photo-AiZ"leaf">Crop the image so that the lesion takes up one-third of the width and one-third of the height, and is centered in the photo.</p>
         </div>
       </div>
+      <form id="uploadbanner" enctype="multipart/form-data" method="post" action="#">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Upload</button>
+        <input type="file"  accept="image/*" name="image" id="file" onchange="loadFile(event)" style="display: none;">
+        <label for="file" class="button-xKf"leaf">Upload Image</label>
+      </form>
       <button class="button-caZ"leaf" onClick="window.location.href='results.html';">Upload Image</button>
     </div>
     <div class="navigation-c-cDB"row">
