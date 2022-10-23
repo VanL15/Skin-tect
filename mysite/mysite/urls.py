@@ -25,6 +25,7 @@ urlpatterns = [
     path('start-scanning/', views.start_scanning),
     path('about/', views.about),
     path('login/', views.login),
-    path('start-scanning/create-account/login/', views.login),
-    path('start-scanning/create-account/', views.create_account)
+    path('create-account/', views.create_account),
+    path('provider-scan/', views.provider_scan),
+    path('provider-scan/submitted/', views.submitted),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
