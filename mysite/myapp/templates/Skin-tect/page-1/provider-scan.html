@@ -52,8 +52,9 @@
       <form id="uploadbanner" enctype="multipart/form-data" method="post" action="#">
         {% csrf_token %}
         {{ form.as_p }}
+        <button type="submit">Upload</button>
         <input type="file"  accept="image/*" name="image" id="file" onchange="loadFile(event)" style="display: none;">
-        <label for="file" type="submit" class="button-xKf"leaf">Upload Image</label>
+        <label for="file" class="button-xKf"leaf">Upload Image</label>
       </form>
       
 
