@@ -60,7 +60,7 @@ def results_BCC(request):
     return render(request, "results-BCC.html")
 
 def results_melanoma(request):
-    return render(request, "results_melanoma.html")
+    return render(request, "results-melanoma.html")
 
 def results_low_confidence(request):
     return render(request, "results-low-confidence.html")
