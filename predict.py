@@ -21,7 +21,6 @@ def load_image(img_path, show=False):
     return img_tensor
 
 if __name__ == "__main__":
-
     # load model
     model = load_model(r"C:\Users\james\Desktop\skin-tect.h5")
 
