@@ -38,12 +38,15 @@
       </div>
       <form id="uploadbanner" enctype="multipart/form-data" method="post" action="#">
         {% csrf_token %}
-        {{ form.as_p }}
+        
+        <ul>
+          <li id="text" class="form_style">{{ form.as_p }}</li>
+        </ul>
         <button type="submit">Upload</button>
         <input type="file"  accept="image/*" name="image" id="file" onchange="loadFile(event)" style="display: none;">
-        <label for="file" class="button-xKf"leaf">Upload Image</label>
+        <label for="file" class="button-xKf"leaf"></label>
       </form>
-      <button class="button-caZ"leaf" onClick="window.location.href='../results';">Upload Image</button>
+      <button class="button-caZ"leaf" onClick="window.location.href='../results';">Continue</button>
     </div>
     <div class="navigation-c-cDB"row">
       <div class="skin-tect-3ZP"leaf">Skin-tect</div>
@@ -52,10 +55,6 @@
       <div class="about-us-tiR"leaf">About Us</div>
       <button class="button-o4h"leaf" onClick="window.location.href='../create-account';">I’m a Healthcare Provider</button>
     </div>
-  </div>
-  <div class="rectangle-D8R"leaf">
-  </div>
-  <div class="rectangle-3-4Pw"leaf">
   </div>
 </div>
 </body>
