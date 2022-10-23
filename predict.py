@@ -7,8 +7,7 @@ import numpy as np
 class_indicies = {0: "Actinic Keratoses, Intraepithelial Carcinoma, or Bowen's disease", 1: 'Basal Cell Carcinoma', 2: 'Benign Keratosis-like Lesions', 3: 'Dermatofibroma', 4: 'Melanoma', 5: 'Melanocytic Nevi', 6: 'Vascular Lesions'}
 
 def load_image(img_path, show=False):
-
-    img = tf.keras.preprocessing.image.load_img(img_path, target_size=(224, 224, 3))
+    img = tf.keras.preprocessing.image.load_img(img_path, target_size=(353, 353, 3))
     img_tensor = tf.keras.preprocessing.image.img_to_array(img)                         # create tensor of image with parameters (height, width, channels)
     img_tensor = np.expand_dims(img_tensor, axis=0)                                     # expand img_tensor to include batch parameter so it's correctly formatted
     img_tensor /= 255.                                                                  # divide by 255 to normalize
@@ -24,11 +23,11 @@ def load_image(img_path, show=False):
 if __name__ == "__main__":
 
     # load model
-    model = load_model("hackgt9.h5")
+    model = load_model(r"C:\Users\james\Desktop\skin-tect.h5")
 
     # image path
-    FILE_NAME = "IMG_4965"
-    img_path = f'Images\{FILE_NAME}.png'
+    FILE_NAME = "melanoma1.jfif"
+    img_path = f'Images\{FILE_NAME}'
 
     # load a single image
     new_image = load_image(img_path)
