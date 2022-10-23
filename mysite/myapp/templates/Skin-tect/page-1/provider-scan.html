@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-{% load static %}
 <html>
 <head>
   <meta charset="utf-8" />
@@ -11,6 +10,19 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C500%2C700"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa%3A400"/>
   <link rel="stylesheet" href="{% static './styles/provider-scan.css' %}"/>
+  <script type = "text/javascript">
+    function readURL(input) {
+    if (input.files && input.files[0]) {
+      var reader = new FileReader();
+  
+      reader.onload = function (e) {
+        $('#blah').attr('src', e.target.result).width(150).height(200);
+      };
+  
+      reader.readAsDataURL(input.files[0]);
+    }
+  }
+  </script>
 </head>
 <body>
 <div class="provider-scan-kpd"column">
@@ -36,7 +48,15 @@
           <p class="crop-the-image-so-that-the-lesion-takes-up-one-third-of-the-width-and-one-third-of-the-height-and-is-centered-in-the-photo-3a5"leaf">Crop the image so that the lesion takes up one-third of the width and one-third of the height, and is centered in the photo.</p>
         </div>
       </div>
-      <button class="button-xKf"leaf">Upload Image</button>
+      <input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: none;">
+      <label for="file" class="button-xKf"leaf">Upload Image</label>
+
+      <script>
+        var loadFile = function(event) {
+          var image = document.getElementById('output');
+          image.src = URL.createObjectURL(event.target.files[0]);
+        };
+        </script>
     </div>
     <div class="navigation-c-N21"row">
       <div class="skin-tect-xku"leaf">Skin-tect</div>
@@ -46,8 +66,7 @@
     </div>
   </div>
   <div class="auto-group-lfim-c6h"column">
-    <div class="rectangle-jSD"leaf">
-    </div>
+    <img id="output" class="rectangle-jSD"leaf">
     <div class="group-AGd"none">
       <p class="additional-diagnostic-information-FYy"leaf">Additional Diagnostic Information</p>
       <button class="button-1gZ"leaf" onClick="window.location.href='healthcare-submitted.html';">SUBMIT</button>
@@ -61,12 +80,12 @@
         </div>
         <p class="i-confirm-that-the-above-information-is-entirely-correct-to-the-best-of-my-knowledge-PMf"leaf">I confirm that the above information is entirely correct to the best of my knowledge</p>
       </div>
-      <input class="auto-group-so81-e2h"leaf" placeholder="Diagnosis"></input>
-      <input class="auto-group-yjaz-Bgq"leaf" placeholder="Diagnosis Type"></input>
+      <input class="auto-group-so81-e2h"leaf" name="dx" placeholder="Diagnosis"></input>
+      <input class="auto-group-yjaz-Bgq"leaf" name="dx_type" placeholder="Diagnosis Type"></input>
       <div class="auto-group-sqdb-Wcd"row">
-        <input class="auto-group-yudt-PRX"leaf" placeholder="Localization of Lesion"></input>
-        <input class="auto-group-qpsr-pWq"leaf" placeholder="Patient Age"></input>
-        <input class="auto-group-amx9-RmX"leaf" placeholder="Patient Sex"></input>
+        <input class="auto-group-yudt-PRX"leaf" name="localization" placeholder="Localization of Lesion"></input>
+        <input class="auto-group-qpsr-pWq"leaf" name="age" placeholder="Patient Age"></input>
+        <input class="auto-group-amx9-RmX"leaf" name="sex" placeholder="Patient Sex"></input>
       </div>
     </div>
   </div>

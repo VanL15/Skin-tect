@@ -273,8 +273,8 @@ body {
 }
 .provider-scan-kpd .auto-group-lfim-c6h .rectangle-jSD {
   margin: 0rem 2.6rem 3.5rem 2.7rem;
-  width: calc(100% - 5.3rem);
-  height: 65.2rem;
+  max-width: calc(100% - 5.3rem);
+  max-height: 65.2rem;
   border: solid 0.1rem rgba(0, 0, 0, 0.3000000119);
   box-sizing: border-box;
   background-color: #e5e5e5;
